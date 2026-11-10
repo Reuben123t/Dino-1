@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome Dino Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="title">T-REX RUNNER</div>
+      <div class="score-board">
+        <span>HI <span id="high-score">00000</span></span>
+        <span id="score">00000</span>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="250"></canvas>
+
+    <div class="controls-hint">
+      <p>Press <strong>[Space]</strong> or <strong>[&uarr;]</strong> to Jump | <strong>[&darr;]</strong> to Duck | Tap / Click on Mobile</p>
+      <button id="mute-btn" class="btn">🔊 Sound: ON</button>
+      <button id="restart-btn" class="btn" style="display:none;">Restart Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
